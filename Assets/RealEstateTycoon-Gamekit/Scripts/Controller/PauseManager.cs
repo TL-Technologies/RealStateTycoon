@@ -26,7 +26,6 @@ public class PauseManager : MonoBehaviour {
 		
 		Time.timeScale = 1.0f;
 
-		AdManagerObject = GameObject.FindGameObjectWithTag("AdManager");
 		
 		if(pausePlane)
 	    	pausePlane.SetActive(false); 
